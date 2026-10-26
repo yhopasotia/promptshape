@@ -1,0 +1,9 @@
+LICENSE
+README.md
+promptshape.py
+pyproject.toml
+yhopasotia_promptshape.egg-info/PKG-INFO
+yhopasotia_promptshape.egg-info/SOURCES.txt
+yhopasotia_promptshape.egg-info/dependency_links.txt
+yhopasotia_promptshape.egg-info/entry_points.txt
+yhopasotia_promptshape.egg-info/top_level.txt
