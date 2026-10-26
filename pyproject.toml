@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yhopasotia-promptshape"
+version = "0.1.0"
+description = "识别提示词里的角色设定、任务、约束、示例与输出格式，标出缺失项与冲突项。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "yhopasotia" }]
+keywords = ["prompt", "llm", "cli", "analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://yhopasotia.github.io"
+Repository = "https://github.com/yhopasotia/promptshape"
+Issues = "https://github.com/yhopasotia/promptshape/issues"
+
+[project.scripts]
+promptshape = "promptshape:main"
+
+[tool.setuptools]
+py-modules = ["promptshape"]
